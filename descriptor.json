@@ -9148,6 +9148,11 @@
             "value": "Standalone/_EX_POOL_HEAP_MANAGER_STATE"
         },
         {
+            "key": "Standalone/_KQOS_GROUPING_SETS",
+            "text": "_KQOS_GROUPING_SETS",
+            "value": "Standalone/_KQOS_GROUPING_SETS"
+        },
+        {
             "key": "Standalone/_tag_ARM64INTR_BARRIER_TYPE",
             "text": "_tag_ARM64INTR_BARRIER_TYPE",
             "value": "Standalone/_tag_ARM64INTR_BARRIER_TYPE"
@@ -9228,11 +9233,6 @@
             "value": "Standalone/_KSTATIC_AFFINITY_BLOCK"
         },
         {
-            "key": "Standalone/_KQOS_GROUPING_SETS",
-            "text": "_KQOS_GROUPING_SETS",
-            "value": "Standalone/_KQOS_GROUPING_SETS"
-        },
-        {
             "key": "Standalone/_EXP_LICENSE_STATE",
             "text": "_EXP_LICENSE_STATE",
             "value": "Standalone/_EXP_LICENSE_STATE"
@@ -9296,6 +9296,91 @@
             "key": "Standalone/_NUMA_MEMORY_RANGE",
             "text": "_NUMA_MEMORY_RANGE",
             "value": "Standalone/_NUMA_MEMORY_RANGE"
+        },
+        {
+            "key": "Standalone/_MEMORY_PHYSICAL_CONTIGUITY_UNIT_STATE",
+            "text": "_MEMORY_PHYSICAL_CONTIGUITY_UNIT_STATE",
+            "value": "Standalone/_MEMORY_PHYSICAL_CONTIGUITY_UNIT_STATE"
+        },
+        {
+            "key": "Standalone/_SYSTEM_FEATURE_CONFIGURATION_SECTION_TYPE",
+            "text": "_SYSTEM_FEATURE_CONFIGURATION_SECTION_TYPE",
+            "value": "Standalone/_SYSTEM_FEATURE_CONFIGURATION_SECTION_TYPE"
+        },
+        {
+            "key": "Standalone/_KTIMER_TABLE_STATE",
+            "text": "_KTIMER_TABLE_STATE",
+            "value": "Standalone/_KTIMER_TABLE_STATE"
+        },
+        {
+            "key": "Standalone/_RTL_FEATURE_CONFIGURATION_TYPE",
+            "text": "_RTL_FEATURE_CONFIGURATION_TYPE",
+            "value": "Standalone/_RTL_FEATURE_CONFIGURATION_TYPE"
+        },
+        {
+            "key": "Standalone/_RTL_FEATURE_CONFIGURATION_PRIORITY",
+            "text": "_RTL_FEATURE_CONFIGURATION_PRIORITY",
+            "value": "Standalone/_RTL_FEATURE_CONFIGURATION_PRIORITY"
+        },
+        {
+            "key": "Standalone/_RTL_FEATURE_ENABLED_STATE_OPTIONS",
+            "text": "_RTL_FEATURE_ENABLED_STATE_OPTIONS",
+            "value": "Standalone/_RTL_FEATURE_ENABLED_STATE_OPTIONS"
+        },
+        {
+            "key": "Standalone/_RTL_FEATURE_USAGE_REPORT",
+            "text": "_RTL_FEATURE_USAGE_REPORT",
+            "value": "Standalone/_RTL_FEATURE_USAGE_REPORT"
+        },
+        {
+            "key": "Standalone/wil_details_FeatureStateCache",
+            "text": "wil_details_FeatureStateCache",
+            "value": "Standalone/wil_details_FeatureStateCache"
+        },
+        {
+            "key": "Standalone/wil_details_ReportedState",
+            "text": "wil_details_ReportedState",
+            "value": "Standalone/wil_details_ReportedState"
+        },
+        {
+            "key": "Standalone/wil_details_RecordedState",
+            "text": "wil_details_RecordedState",
+            "value": "Standalone/wil_details_RecordedState"
+        },
+        {
+            "key": "Standalone/wil_details_FeatureReportingCache",
+            "text": "wil_details_FeatureReportingCache",
+            "value": "Standalone/wil_details_FeatureReportingCache"
+        },
+        {
+            "key": "Standalone/_RTL_FEATURE_CONFIGURATION",
+            "text": "_RTL_FEATURE_CONFIGURATION",
+            "value": "Standalone/_RTL_FEATURE_CONFIGURATION"
+        },
+        {
+            "key": "Standalone/__m64",
+            "text": "__m64",
+            "value": "Standalone/__m64"
+        },
+        {
+            "key": "Standalone/__m128",
+            "text": "__m128",
+            "value": "Standalone/__m128"
+        },
+        {
+            "key": "Standalone/_FAULT_INFORMATION_X64_FLAGS",
+            "text": "_FAULT_INFORMATION_X64_FLAGS",
+            "value": "Standalone/_FAULT_INFORMATION_X64_FLAGS"
+        },
+        {
+            "key": "Standalone/_FAULT_INFORMATION_X64",
+            "text": "_FAULT_INFORMATION_X64",
+            "value": "Standalone/_FAULT_INFORMATION_X64"
+        },
+        {
+            "key": "Standalone/_BUGCHECK_RECOVERY_LOG_EVENT",
+            "text": "_BUGCHECK_RECOVERY_LOG_EVENT",
+            "value": "Standalone/_BUGCHECK_RECOVERY_LOG_EVENT"
         },
         {
             "key": "Standalone/HalpMpInfo",
@@ -10250,19 +10335,39 @@
             "value": "Win10_1809_RS5/x86/System32"
         },
         {
-            "key": "Win10_1903_RS6/x64/System32",
-            "text": "Win10_1903_RS6-x64 (10.0.18362.1)",
-            "value": "Win10_1903_RS6/x64/System32"
+            "key": "Win10_1903_19H1/x64/System32",
+            "text": "Win10_1903_19H1-x64 (10.0.18362.1)",
+            "value": "Win10_1903_19H1/x64/System32"
         },
         {
-            "key": "Win10_1903_RS6/x64/System32",
-            "text": "Win10_1903_RS6-x64 (10.0.18362.30)",
-            "value": "Win10_1903_RS6/x64/System32"
+            "key": "Win10_1903_19H1/x64/System32",
+            "text": "Win10_1903_19H1-x64 (10.0.18362.30)",
+            "value": "Win10_1903_19H1/x64/System32"
         },
         {
-            "key": "Win10_1903_RS6/x86/System32",
-            "text": "Win10_1903_RS6-x86 (10.0.18362.1)",
-            "value": "Win10_1903_RS6/x86/System32"
+            "key": "Win10_1903_19H1/x86/System32",
+            "text": "Win10_1903_19H1-x86 (10.0.18362.1)",
+            "value": "Win10_1903_19H1/x86/System32"
+        },
+        {
+            "key": "Win10_1909_19H2/x64/System32",
+            "text": "Win10_1909_19H2-x64 (10.0.18362.387)",
+            "value": "Win10_1909_19H2/x64/System32"
+        },
+        {
+            "key": "Win10_1909_19H2/x64/System32",
+            "text": "Win10_1909_19H2-x64 (10.0.18362.418)",
+            "value": "Win10_1909_19H2/x64/System32"
+        },
+        {
+            "key": "Win10_1909_19H2/x86/System32",
+            "text": "Win10_1909_19H2-x86 (10.0.18362.387)",
+            "value": "Win10_1909_19H2/x86/System32"
+        },
+        {
+            "key": "Win10_1909_19H2/x86/System32",
+            "text": "Win10_1909_19H2-x86 (10.0.18362.418)",
+            "value": "Win10_1909_19H2/x86/System32"
         },
         {
             "key": "Win10_20H1_18836/ARM64/System32",
@@ -10348,6 +10453,51 @@
             "key": "Win10_20H1_18941/x86/System32",
             "text": "Win10_20H1_18941-x86 (10.0.18941.1001)",
             "value": "Win10_20H1_18941/x86/System32"
+        },
+        {
+            "key": "Win10_20H1_18975/ARM64/System32",
+            "text": "Win10_20H1_18975-ARM64 (10.0.18975.1000)",
+            "value": "Win10_20H1_18975/ARM64/System32"
+        },
+        {
+            "key": "Win10_20H1_18975/x64/System32",
+            "text": "Win10_20H1_18975-x64 (10.0.18975.1000)",
+            "value": "Win10_20H1_18975/x64/System32"
+        },
+        {
+            "key": "Win10_20H1_18975/x86/System32",
+            "text": "Win10_20H1_18975-x86 (10.0.18975.1000)",
+            "value": "Win10_20H1_18975/x86/System32"
+        },
+        {
+            "key": "Win10_20H1_18990/ARM64/System32",
+            "text": "Win10_20H1_18990-ARM64 (10.0.18990.1)",
+            "value": "Win10_20H1_18990/ARM64/System32"
+        },
+        {
+            "key": "Win10_20H1_18990/x64/System32",
+            "text": "Win10_20H1_18990-x64 (10.0.18990.1)",
+            "value": "Win10_20H1_18990/x64/System32"
+        },
+        {
+            "key": "Win10_20H1_18990/x86/System32",
+            "text": "Win10_20H1_18990-x86 (10.0.18990.1)",
+            "value": "Win10_20H1_18990/x86/System32"
+        },
+        {
+            "key": "Win10_20H1_19002/ARM64/System32",
+            "text": "Win10_20H1_19002-ARM64 (10.0.19002.1)",
+            "value": "Win10_20H1_19002/ARM64/System32"
+        },
+        {
+            "key": "Win10_20H1_19002/x64/System32",
+            "text": "Win10_20H1_19002-x64 (10.0.19002.1)",
+            "value": "Win10_20H1_19002/x64/System32"
+        },
+        {
+            "key": "Win10_20H1_19002/x86/System32",
+            "text": "Win10_20H1_19002-x86 (10.0.19002.1)",
+            "value": "Win10_20H1_19002/x86/System32"
         },
         {
             "key": "Win7/x64/System32",
